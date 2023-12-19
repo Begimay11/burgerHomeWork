@@ -1,0 +1,156 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10rem;
+    margin-top: 30px;
+}
+.burgerAll{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0.6em 0.2em 0.8em rgba(0, 0, 0, 0.4);
+}
+.burger-icon{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+.burger-icon img{
+    width: 50px;
+    height: 50px;
+}
+.span-icons{
+    width: 70px;
+    height: 40px;
+    position: relative;
+    /* transition: 3s; */
+}
+.span-icons span{
+    width: 60px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    transition: 1s;
+}
+.span-icons span:nth-child(2){
+    top: 50%;
+    transform: translateY(-50%);
+}
+.span-icons span:last-child{
+    bottom: 0%;
+}
+.img-food{
+    width: 100%;
+    height: 80%;
+    transform: scale(1);
+    display: block;
+}
+.menu{
+    display: none;
+    position: relative;
+}
+.menu a{
+    
+}
+.img-secondList{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    z-index: 1;
+    position: absolute;
+    top: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    left: 20px;
+    width: 60%;
+    color: rgb(26, 26, 103);
+}
+.textName{
+    z-index: 1;
+    position: absolute;
+    top: 180px;
+    left: 210px;
+    width: 45%;
+    color: rgb(26, 26, 103);
+    display: flex;
+    gap: 0.2rem;
+}
+.textBlog{
+    display: none;
+    margin-left: 280px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(26, 26, 103);
+}
+.chyrakFest{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+    color: rgb(26, 26, 103);
+    margin-left: 130px;
+}
+.chyrak{
+    width: 20px;
+    height: 20px;
+}
+.img-menu{
+    display: none;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.menuLast{
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-left: 450px;
+    margin-top: 15px;
+}
+.menus{
+    display: none;
+    width: 100%;
+    height: 80%;
+}
+.blogImg{
+    display: none;
+    width: 60%;
+    height: 60%;
+    margin: 30px 0 30px 130px;
+}
+.categories{
+    display: none;
+    text-decoration: none;
+    color: rgb(26, 26, 103);
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 30px;
+    margin: 0 auto;
+    width: 25%;
+    margin-top: 20px;
+    gap: 1rem;
+}
+.categories a{
+    text-decoration: none;
+    line-height: 50px;
+    gap: 1rem; 
+}
+.categories a:hover{
+    color: rgb(80, 86, 255);
+}
+a{
+    text-decoration: none;
+    color: rgb(26, 26, 103);
+    font-style: italic;
+    font-size: 30px;
+    width: 30%;
+    margin-left: 20px;
+}
+.industri{
+    width: 70px;
+    height: 35px;
+}
+.industriLast{
+    display: flex;
+    align-items: center;
+
+}
